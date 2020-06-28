@@ -1,0 +1,22 @@
+<!--
+<p>pokemons works!</p>
+-->
+<div class="row">
+	<div class="col-12">
+		<div class="progress" *ngIf="flagCargando">
+		  <div class="progress-bar progress-bar-striped fondo-rojo progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+	</div>
+</div>
+<div class="row mt-4">
+	<div class="col-12">
+		<ul class="list-group">
+		  <a (click)="verDetallePokemon(pokemon)" class="list-group-item list-group-item-action" *ngFor="let pokemon of pokemons">
+		  	{{pokemon.name | uppercase}}
+		  	<span class="float-right">
+					<fa-icon [icon]="faChevronRight" class="text-black"></fa-icon>
+				</span>
+		  </a>
+		</ul>
+	</div>
+</div>
