@@ -2,6 +2,11 @@
 
 Ejercicio de Router y LazyLoading
 
+En este ejemplo se muestra el uso de routing y lazyLoading de módulos
+
+- RouterApp: Ejemplo de LazyLoading
+- PokeApp: Ejemplo básico aplicado de LazyLoading
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
